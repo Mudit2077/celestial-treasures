@@ -48,7 +48,7 @@ const Appointments = () => {
                     <h2 className="font-serif text-2xl font-bold mb-2">Pandit Rajesh Sharma</h2>
                     <p className="text-accent font-semibold mb-4">Expert Vedic Astrologer</p>
                     <p className="text-muted-foreground mb-4">
-                      Over 25 years of experience in Vedic astrology, horoscope reading, 
+                      Over 25 years of experience in Vedic astrology,  reading, 
                       and spiritual guidance. Specialized in career, relationships, and life path consultations.
                     </p>
                     <div className="space-y-2">

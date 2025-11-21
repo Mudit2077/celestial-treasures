@@ -12,7 +12,6 @@ import Blog from "./pages/Blog";
 import Cart from "./pages/Cart";
 import Auth from "./pages/Auth";
 import Appointments from "./pages/Appointments";
-import Horoscope from "./pages/Horoscope";
 import FAQ from "./pages/FAQ";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import RefundPolicy from "./pages/RefundPolicy";
@@ -38,7 +37,6 @@ const App = () => (
           <Route path="/cart" element={<Cart />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/appointments" element={<Appointments />} />
-          <Route path="/horoscope" element={<Horoscope />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/refund-policy" element={<RefundPolicy />} />

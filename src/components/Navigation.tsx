@@ -25,8 +25,8 @@ export const Navigation = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
+    <header className="fixed top-0 z-50 w-full mt-4 border-b max-w-[calc(100%-20px)] border-border/40 bg-background/95 backdrop-blur rounded-[50px] supports-[backdrop-filter]:bg-background/60">
+      <nav className="container mx-auto max-w-[calc(100%-20px)] px-4 h-14 flex items-center justify-between  ">
         <Link to="/" className="flex items-center space-x-2">
           <span className="font-serif text-2xl font-bold text-primary">Divine Astrology</span>
         </Link>
@@ -55,9 +55,7 @@ export const Navigation = () => {
             </NavigationMenuList>
           </NavigationMenu>
 
-          <Link to="/horoscope" className="text-sm font-medium transition-colors hover:text-accent">
-            Horoscope
-          </Link>
+        
           <Link to="/blog" className="text-sm font-medium transition-colors hover:text-accent">
             Blog
           </Link>
@@ -106,9 +104,6 @@ export const Navigation = () => {
                     </Link>
                   ))}
                 </div>
-                <Link to="/horoscope" onClick={() => setIsOpen(false)} className="px-3 py-2 rounded-md hover:bg-accent">
-                  Horoscope
-                </Link>
                 <Link to="/blog" onClick={() => setIsOpen(false)} className="px-3 py-2 rounded-md hover:bg-accent">
                   Blog
                 </Link>

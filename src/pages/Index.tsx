@@ -58,7 +58,8 @@ const Index = () => {
               Shop Now
             </Button>
             <Link to="/appointments">
-              <Button size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10">
+              <Button size="lg" variant="outline" className="border-primary-foreground text-black-700 hover:bg-blue-300 hover:text-black-1000
+">
                 Book Consultation
               </Button>
             </Link>
