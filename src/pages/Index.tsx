@@ -43,9 +43,8 @@ const Index = () => {
 
       {/* Hero Section */}
       <section 
-        className="relative h-[600px] flex items-center justify-center text-center bg-cover bg-center"
-        style={{ backgroundImage: `linear-gradient(rgba(26, 26, 62, 0.7), rgba(26, 26, 62, 0.7)), url(${heroImage})` }}
-      >
+        className="relative h-screen flex items-center justify-center text-center bg-cover bg-center"
+        style={{ backgroundImage: `linear-gradient(rgba(26, 26, 62, 0.7), rgba(26, 26, 62, 0.7)), url(${heroImage})` }}>
         <div className="container mx-auto px-4 z-10">
           <h1 className="font-serif text-5xl md:text-7xl font-bold text-primary-foreground mb-6 animate-float">
             Discover Your <span className="text-gradient-gold">Divine Path</span>
